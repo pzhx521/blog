@@ -3,9 +3,7 @@
 #  https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins
 
 #ignore all JENKINS_HOME except jobs directory, root xml config, and .gitignore file
-/*
 !/jobs
-!/.gitignore
 !/*.xml
 
 #ignore all files in jobs subdirectories except for folders
@@ -23,3 +21,5 @@ jobs/**
 jobs/**/*workspace
 
 #as a result only settings and job config.xml files in JENKINS_HOME will be tracked by git
+#ignore all *.bak file
+*.bak

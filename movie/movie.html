@@ -1,0 +1,90 @@
+<html class="h-category-v2 ">
+
+	<head>
+		<meta charset="utf-8">
+		<title>百度视频_电影分类列表</title>
+		<link rel="stylesheet" type="text/css" href="css/common_ui_9135c1fe.css">
+		<link rel="stylesheet" type="text/css" href="css/category_c23e3044.css">
+		<link rel="stylesheet" type="text/css" href="css/common_ui_video_063d1785.css">
+		<link rel="stylesheet" type="text/css" href="css/videoChannelCommon_52dff697.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/movie.js"></script>
+		<script type="text/javascript" src="js/data.js" ></script>
+		<style>
+			body{background:#f4f4f4;color:#000;}
+		</style>
+		<style>
+        a.disabled {
+            pointer-events: none;
+            filter: alpha(opacity=50); /*IE滤镜，透明度50%*/
+            -moz-opacity: 0.5; /*Firefox私有，透明度50%*/
+            opacity: 0.5; /*其他，透明度50%*/
+        }
+    </style>
+	</head>
+
+	<body class="global-logged hdmini-body">
+		<div id="main">
+			<!--导航区-->
+			<div class="section">
+				<div class="mod-sorttop mod-sorttop-movie" id="blockMovieSortTop" static="bl=blockMovieSortTop&amp;blname=%E7%94%B5%E5%BD%B1%E5%88%86%E7%B1%BB%E6%8E%A8%E8%8D%90&amp;to=search">
+					<div class="hd">
+						<ul id="section-movie-kinds" class="tab-title"></ul>
+					</div>
+				</div>
+			</div>
+				
+			<div id="bd-content" class="bd-content bd-subchannel-movie">
+				<!--横线分隔栏-->
+				<div id="bd-filter" class="bd-filter">
+					<div class="bd-filter-tabs">
+						<div class="bd-filter-order filter-group" id="bd-filter-order" static="bl=type&amp;stp=order"></div>
+					</div>
+				</div>
+				<!--描述：中间电影区域-->
+				<div id="bd-videos" class="bd-videos">
+					<ul id="bd-video-list" class="bd-video-list" style="display: block;">
+						<!--每一个li代表一部电影-->
+						
+					</ul>
+				</div>
+				<!--描述：底部翻页导航栏-->
+				<div id="bd-pagination" class="bd-pagination">
+					<div id="bd-pagination-list" static="bl=pagebar" class="bd-pagination-list filter-group">
+						<a data-key="pn" data-val="1" class="bd-pagination-page bd-pagination-prev filter-sel" title="上一页" href="#">上一页</a>
+						<a data-key="pn" data-val="1" class="bd-pagination-page  filter-sel" title="第1页" href="#">1</a>
+						<a data-key="pn" data-val="2" class="bd-pagination-page  filter-sel-active  filter-sel" title="第2页" href="#">2</a>
+						<a data-key="pn" data-val="3" class="bd-pagination-page  filter-sel" title="第3页" href="#">3</a>
+						<a data-key="pn" data-val="4" class="bd-pagination-page  filter-sel" title="第4页" href="#">4</a>
+						<a data-key="pn" data-val="5" class="bd-pagination-page  filter-sel" title="第5页" href="#">5</a>
+						<a data-key="pn" data-val="6" class="bd-pagination-page  filter-sel" title="第6页" href="#">6</a>
+						<a data-key="pn" data-val="3" class="bd-pagination-page bd-pagination-next filter-sel" title="下一页" href="#">下一页</a>
+						<a data-key="pn" data-val="54" class="bd-pagination-page bd-pagination-prev filter-sel" title="尾页" href="#">尾页</a>
+					</div>
+				</div>
+				<!--<div id="bd-pagination" class="bd-pagination">
+					<div id="bd-pagination-list" static="bl=pagebar" class="bd-pagination-list filter-group">
+						<a data-key="pn" data-val="0" class="bd-pagination-page bd-pagination-prev filter-sel" title="首页" href="#">首页</a>
+						<a data-key="pn" data-val="1" class="bd-pagination-page  filter-sel-active  filter-sel" title="第1页" href="#">1</a>
+						<a data-key="pn" data-val="2" class="bd-pagination-page  filter-sel" title="第2页" href="#">2</a>
+						<a data-key="pn" data-val="3" class="bd-pagination-page  filter-sel" title="第3页" href="#">3</a>
+						<a data-key="pn" data-val="4" class="bd-pagination-page  filter-sel" title="第4页" href="#">4</a>
+						<a data-key="pn" data-val="5" class="bd-pagination-page  filter-sel" title="第5页" href="#">5</a>
+						<a data-key="pn" data-val="6" class="bd-pagination-page bd-pagination-next filter-sel" title="下一页" href="#">下一页</a>
+						<a data-key="pn" data-val="54" class="bd-pagination-page bd-pagination-prev filter-sel" title="尾页" href="#">尾页</a>
+					</div>
+				</div>-->
+			</div>
+		</div>
+		<!--固定浮动框 返回顶部-->
+		<div id="back-to-top" class="back-to-top back-to-top-show" alog-alias="backTop">
+			<ul class="bt-list">
+				<li class="bt-top"><a href="#" id="back-to-top-btn" class="bt-btn-top" title="回到顶部"></a></li>
+				<li class="bt-bottom">
+					<a  href="#" class="bt-btn-feedback" id="">❤</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+
+</html>
