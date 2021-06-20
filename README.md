@@ -1,3 +1,3 @@
 # blog
-# first plan : movie 
+# first plan : movie  
 # secend plan : ...
